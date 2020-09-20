@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3005"
+// const BASE_URL = "http://localhost:3005"
+const BASE_URL = "https://wedding-api-alexis.herokuapp.com";
 
 const getGuests = () => {
   return axios.get(`${BASE_URL}/api/guests`);
